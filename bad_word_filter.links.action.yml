@@ -1,0 +1,6 @@
+entity.bad_word_filter.add_form:
+  route_name: 'entity.bad_word_filter.add_form'
+  title: 'Add bad word filter'
+  appears_on:
+    - entity.bad_word_filter.collection
+

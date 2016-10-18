@@ -1,0 +1,29 @@
+bad_word_filter.bad_word_filter.*:
+  type: config_entity
+  label: 'Bad word filter config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    words:
+      type: string
+      label: 'Words'
+    replacement:
+      type: string
+      label: 'Replacement'
+    uuid:
+      type: string
+
+filter_settings.bad_word_filter:
+  type: filter
+  label: 'Bad word filter'
+  mapping:
+    active_configs:
+      type: sequence
+      label: 'Active configurations'
+      sequence:
+        type: string
+        label: 'Configuration'

@@ -1,0 +1,5 @@
+name: Bad Word Filter
+type: module
+description: Provides the ability to filter bad words
+package: Content
+core: 8.x

@@ -1,0 +1,8 @@
+# Bad word filter menu items definition
+entity.bad_word_filter.collection:
+  title: 'Bad word filter'
+  route_name: entity.bad_word_filter.collection
+  description: 'Use bad word filter to replace unwanted content'
+  parent: system.admin_config_content
+  weight: 99
+
